@@ -1,0 +1,39 @@
+@startuml Systemuebersicht
+
+skinparam defaultTextAlignment center
+skinparam componentStyle uml2
+
+!$ICONURL = "https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v3.0.0/icons"
+!include $ICONURL/common.puml
+
+!include $ICONURL/devicons/mysql.puml
+!include $ICONURL/font-awesome/server.puml
+!include $ICONURL/font-awesome-5/camera.puml
+!include $ICONURL/font-awesome-5/robot.puml
+!include $ICONURL/font-awesome-5/tablet.puml
+!include $ICONURL/font-awesome-5/wifi.puml
+
+title Styling example
+
+component "Openmv cam h7 plus" as openmvboard {
+    FA5_CAMERA(camera, "Kamera\n<size:8>OV5640</size>", component, white) #SteelBlue
+    FA5_ROBOT(ml_model, "Machine-Learning Model", component, white) #LightCoral
+    component "Bilddaten-Vorverarbeitung" as verarbeitung #MediumAquaMarine
+    interface "MIPI/DVP" as bildinterface
+}
+
+FA5_TABLET(display, "LCD Display", component, white) #SteelBlue
+FA5_WIFI(WIFI, "WIFI-Modul", component, white) #MediumAquaMarine
+
+interface "SPI-Bus" as SPI
+interface "Antenne" as antenna
+
+camera .right.> bildinterface : Bilddaten
+bildinterface .right.> verarbeitung
+verarbeitung -right-> ml_model
+ml_model -right-> WIFI 
+WIFI -right-> antenna
+SPI -up-> ml_model
+SPI -down-> display
+
+@enduml
