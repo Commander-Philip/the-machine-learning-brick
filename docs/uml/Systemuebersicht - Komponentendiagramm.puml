@@ -23,15 +23,17 @@ component "Openmv cam h7 plus" as openmvboard {
 }
 
 FA5_TABLET(display, "LCD Display", component, white) #SteelBlue
-FA5_WIFI(WIFI, "WIFI-Modul", component, white) #MediumAquaMarine
+FA5_WIFI(WIFI, "WIFI-Modul", component, white) #SteelBlue
 
 interface "SPI-Bus" as SPI
+interface "SPI-Bus" as SPI2
 interface "Antenne" as antenna
 
-camera .right.> bildinterface : Bilddaten
-bildinterface .right.> verarbeitung
-verarbeitung -right-> ml_model
-ml_model -right-> WIFI 
+camera -right- bildinterface : Bilddaten
+bildinterface -right-> verarbeitung
+verarbeitung .right.> ml_model
+ml_model -right-> SPI2 
+SPI2 -right- WIFI
 WIFI -right-> antenna
 SPI -up-> ml_model
 SPI -down-> display
