@@ -26,16 +26,14 @@ FA5_TABLET(display, "LCD Display", component, white) #SteelBlue
 FA5_WIFI(WIFI, "WIFI-Modul", component, white) #SteelBlue
 
 interface "SPI-Bus" as SPI
-interface "SPI-Bus" as SPI2
-interface "Antenne" as antenna
+interface "Integrierte\nAntenne" as antenna
 
-camera -right- bildinterface : Bilddaten
-bildinterface -right-> verarbeitung
-verarbeitung .right.> ml_model
-ml_model -right-> SPI2 
-SPI2 -right- WIFI
-WIFI -right-> antenna
-SPI -up-> ml_model
-SPI -down-> display
+camera - bildinterface : Bilddaten
+bildinterface -> verarbeitung
+verarbeitung .> ml_model
+ml_model -down- SPI
+SPI -right- WIFI
+SPI -left- display
+WIFI -right- antenna
 
 @enduml
