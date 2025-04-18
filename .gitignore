@@ -175,3 +175,9 @@ cython_debug/
 
 # LaTeX und PlantUML Output
 docs/**/generated
+
+# Geöffnete LibreOffice Dateien
+.~lock.*
+
+# Videos
+*.mp4
