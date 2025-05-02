@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="80mm"
+   height="103.14558mm"
+   viewBox="0 0 80 103.14558"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="SD-Karte.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="2"
+     inkscape:cx="53.999999"
+     inkscape:cy="124.25"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-29.501634,-24.374609)">
+    <g
+       id="g1"
+       transform="matrix(5.2895346,0,0,5.2895346,-126.54829,-104.55575)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.213786px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 29.643922,43.873541 V 32.369648 30.608053 h 0.408769 v -2.597191 h -0.408769 v -0.718827 h 0.435896 v -1.189236 h -0.471289 v -1.686718"
+         id="path1"
+         sodipodi:nodetypes="ccccccccccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.26629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 29.643132,24.507758 h 10.435943 l 4.35932,4.392381"
+         id="path2" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264575px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 44.400005,28.806832 0.09355,14.887002"
+         id="path5" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.266643px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 29.536361,43.74123 44.624887,43.64797"
+         id="path6" />
+      <rect
+         style="fill:none;stroke:#333333;stroke-width:0.264583"
+         id="rect6"
+         width="2.1427226"
+         height="3.9127977"
+         x="30.966839"
+         y="25.992157"
+         ry="0.5871594" />
+      <rect
+         style="fill:none;stroke:#333333;stroke-width:0.264583"
+         id="rect6-7"
+         width="2.1427226"
+         height="3.9127977"
+         x="34.183414"
+         y="25.9832"
+         ry="0.5871594" />
+      <rect
+         style="fill:none;stroke:#333333;stroke-width:0.264583"
+         id="rect6-7-6"
+         width="2.1427226"
+         height="3.9127977"
+         x="37.391964"
+         y="25.9832"
+         ry="0.5871594" />
+      <rect
+         style="fill:none;stroke:#333333;stroke-width:0.264583"
+         id="rect6-7-61"
+         width="2.1427226"
+         height="3.9127977"
+         x="40.613548"
+         y="27.913544"
+         ry="0.5871594" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.05556px;line-height:1.25;font-family:sans-serif;stroke-width:0.264583"
+         x="32.59169"
+         y="40.255478"
+         id="text7"><tspan
+           sodipodi:role="line"
+           id="tspan7"
+           style="font-size:7.05556px;stroke-width:0.264583"
+           x="32.59169"
+           y="40.255478">SD</tspan></text>
+      <rect
+         style="fill:none;stroke:#333333;stroke-width:0.255496"
+         id="rect7"
+         width="11.744504"
+         height="8.6395464"
+         x="31.19619"
+         y="33.41687"
+         ry="0.56195587" />
+    </g>
+  </g>
+</svg>
