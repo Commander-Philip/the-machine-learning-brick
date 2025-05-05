@@ -16,16 +16,18 @@ import random
 import machine
 from pyb import Timer
 import micropython
-micropython.alloc_emergency_exception_buf(100)
+micropython.alloc_emergency_exception_buf(128)
 
 SSID = "switch2"  # Network SSID
 KEY = "hellebarde"  # Network key
 HOST = ""  # Use first available interface
 PORT = 8080  # Arbitrary non-privileged port
+handleOneConnectionInNextIteration = False
 command = ""
 client: socket.socket = None
 addr = 0
 clientCurrentlyStreaming: socket.socket = None
+debug = True
 
 print(f"Frequenz {machine.freq()}")
 
@@ -51,15 +53,16 @@ while not wlan.isconnected():
 print("WiFi Connected ", wlan.ifconfig())
 
 # Create server socket
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, True)
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, True)
 
 # Bind and listen
-s.bind([HOST, PORT])
-s.listen(5)
+sock.bind([HOST, PORT])
+sock.listen(5)
+print("Socket bound and listening")
 
 # Set server socket to blocking
-s.setblocking(False)
+sock.setblocking(False)
 
 def sendWebsite(client: socket.socket) :
     client.sendall(
@@ -122,41 +125,22 @@ def runNextStreamIteration(client: socket.socket):
         "Content-Length:" + str(cframe.size()) + "\r\n\r\n"
     )
     try:
-        clientCurrentlyStreaming.sendall(header)
-        clientCurrentlyStreaming.sendall(cframe)
+        client.sendall(header)
+        client.sendall(cframe)
     except Exception as e:
         print(f"Error: {e}")
 
     print(f"Framerate: {clock.fps()}")
 
-
-def runBackgroundLoop(s):
-    if(not client is None):
-        if command == "SEND_WEBSITE":
-            sendWebsite(client);
-
-        elif command == "TAKE_PICTURES":
-            takePictures(client)
-
-        elif command == "START_STREAM" and clientCurrentlyStreaming is None:
-            startStream(client)
-        elif command == "START_STREAM" and not clientCurrentlyStreaming is None:
-            client.sendall("HTTP/1.1 503 Service Unavailable\r\n")
-        else:
-            client.sendall("HTTP/1.1 404 Not Found\r\n")
-
-    if(not clientCurrentlyStreaming is None):
-        runNextStreamIteration()
-
-def handleRequests(timer):
-    #try:
+def handleOneRequest():
+    try:
         global command
         global client
         global addr
+        global sock
 
-        oldIrqState = machine.disable_irq()
-        print("Checking for waiting connections..")
-        client, addr = s.accept()
+        print("Checking for waiting connections...")
+        client, addr = sock.accept()
         print("Connected to " + addr[0] + ":" + str(addr[1]))
 
         # Read request from client
@@ -168,31 +152,79 @@ def handleRequests(timer):
         print(f"request: {method} {path} {version}")
 
         if path == "/":
+            if(debug):
+                print("Webseite angefordert")
             command = "SEND_WEBSITE"
-            #client.close()
         elif path == "/picture":
+            if(debug):
+                print("Nehme Bilder auf...")
             command = "TAKE_PICTURES"
-            #client.close()
         elif path == "/stream":
+            if(debug):
+                print("Starte Stream...")
             command = "START_STREAM"
-       # else:
-            #client.close()
-        path = ""
-        machine.enable_irq(oldIrqState)
-    #except Exception as e:
-    #    print(f"Fehler in Request ISR: {e}")
 
+        path = ""
+    except OSError as e:
+        if(e.errno != 11):
+            print(f"Fehler in Socket Handling: {e}, type {type(e)}")
+
+
+def runBackgroundLoop(s):
+    global clientCurrentlyStreaming
+    global handleOneConnectionInNextIteration
+    global command
+    global client
+
+    if(handleOneConnectionInNextIteration):
+        handleOneRequest()
+        handleOneConnectionInNextIteration = False
+
+    if(not client is None):
+        if command == "SEND_WEBSITE":
+            sendWebsite(client);
+
+        elif command == "TAKE_PICTURES":
+            takePictures(client)
+
+        elif command == "START_STREAM" and clientCurrentlyStreaming is None:
+            if(debug):
+                print("Starte Stream...")
+            startStream(client)
+        elif command == "START_STREAM" and not clientCurrentlyStreaming is None:
+            if(debug):
+                print("Bereits ein User am Streamen")
+            client.sendall("HTTP/1.1 503 Service Unavailable\r\n")
+        elif not client is None:
+            if(debug):
+                print("Command not found")
+            client.sendall("HTTP/1.1 404 Not Found\r\n")
+
+    if(not clientCurrentlyStreaming is None):
+        if(debug):
+            print("continue streaming")
+        runNextStreamIteration(clientCurrentlyStreaming)
+
+    command = ""
+    if(not client is None and clientCurrentlyStreaming != client):
+        client.close()
+        client = None
+
+def oneSecondInterrupt(timer):
+    global handleOneConnectionInNextIteration
+    handleOneConnectionInNextIteration = True
 
 # setup timer interrupt
 try:
-    Timer(3).init(freq=1,callback=handleRequests, mode=Timer.UP)
+    Timer(3).init(freq=1,callback=oneSecondInterrupt, mode=Timer.UP)
 except Exception as e:
     print(f"Error with Timer setup: {e}")
 
 while True:
     try:
-        runBackgroundLoop(s)
+        runBackgroundLoop(sock)
     except OSError as e:
+        command = ""
         print("socket error: ", e)
         # sys.print_exception(e)
 
