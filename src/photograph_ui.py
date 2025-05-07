@@ -16,7 +16,16 @@ import random
 import machine
 from pyb import Timer
 import micropython
-micropython.alloc_emergency_exception_buf(128)
+
+def timed_function(f, *args, **kwargs):
+    myname = str(f).split(' ')[1]
+    def new_func(*args, **kwargs):
+        t = time.ticks_us()
+        result = f(*args, **kwargs)
+        delta = time.ticks_diff(time.ticks_us(), t)
+        print('Function {} Time = {:6.3f}ms'.format(myname, delta/1000))
+        return result
+    return new_func
 
 class ClientClosedStreamException(Exception):
     message = "Client closed the Stream!"
@@ -27,6 +36,8 @@ class ClientClosedStreamException(Exception):
         return self.message
 
 class MjpegStream:
+    lastFrameMillis = time.ticks_ms()
+
     def __init__(self, client: socket.socket):
         self.streamingClient: sock.sock
         self.startStream()
@@ -44,42 +55,49 @@ class MjpegStream:
         )
 
     def runFrame(self):
-        # Stream images
-        # NOTE: Disable IDE preview to increase streaming FPS.
-        framerateClock.tick()  # Track elapsed milliseconds between snapshots().
-        frame = sensor.snapshot()
-        cframe = frame.to_jpeg(quality=35, copy=True)
-        header = (
-            "\r\n--openmv\r\n"
-            "Content-Type: image/jpeg\r\n"
-            "Content-Length:" + str(cframe.size()) + "\r\n\r\n"
-        )
-        try:
-            self.streamingClient.sendall(header)
-            self.streamingClient.sendall(cframe)
-        except OSError as e:
-            if(e.errno == 32):
-                print("Streaming client closed connection!")
-                self.streamingClient.close()
-                raise ClientClosedStreamException()
-        except Exception as e:
-            print(f"Error: {e}")
-        finally:
-            print(f"Framerate: {framerateClock.fps()}")
+        now = time.ticks_ms()
+        if(debug):
+            print(f"Time since last Frame: {now-self.lastFrameMillis}")
+        if(now - self.lastFrameMillis > 80):
+            self.lastFrameMillis = now
+            frame = sensor.snapshot()
+            cframe = frame.to_jpeg(quality=10, copy=True)
+            header = (
+                "\r\n--openmv\r\n"
+                "Content-Type: image/jpeg\r\n"
+                "Content-Length:" + str(cframe.size()) + "\r\n\r\n"
+            )
+            try:
+                self.streamingClient.sendall(header)
+                self.streamingClient.sendall(cframe)
+            except OSError as e:
+                if(e.errno == 32):
+                    print("Streaming client closed connection!")
+                    self.streamingClient.close()
+                    raise ClientClosedStreamException()
+            except Exception as e:
+                print(f"Error: {e}")
 
 
 SSID = "switch2"  # Network SSID
 KEY = "hellebarde"  # Network key
 HOST = ""  # Use first available interface
 PORT = 8080  # Arbitrary non-privileged port
-handleOneConnectionOnNextIteration = False
-command = ""
-client: socket.socket = None
-addr = 0
-stream: MjpegStream = None
-debug = True
+debug = False
 
 print(f"Frequenz {machine.freq()}")
+if debug:
+    micropython.alloc_emergency_exception_buf(128)
+
+# Init wlan module and connect to network
+wlan = network.WLAN(network.STA_IF)
+wlan.active(True)
+wlan.connect(SSID, KEY)
+
+while not wlan.isconnected():
+    print('Trying to connect to "{:s}"...'.format(SSID))
+    wlan.connect(SSID, KEY)
+    time.sleep_ms(1000)
 
 # Init sensor
 sensor.reset()
@@ -88,17 +106,13 @@ sensor.set_pixformat(sensor.RGB565)
 
 # FPS clock
 framerateClock = time.clock()
-wifiHandlingClock = time.clock()
 
-# Init wlan module and connect to network
-wlan = network.WLAN(network.STA_IF)
-wlan.active(True)
-wlan.connect(SSID, KEY)
-
-print(f"Wlan.isconnected:  {wlan.isconnected()}")
-while not wlan.isconnected():
-    print('Trying to connect to "{:s}"...'.format(SSID))
-    time.sleep_ms(1000)
+handleOneConnectionOnNextIteration = False
+command = ""
+client: socket.socket = None
+addr = 0
+stream: MjpegStream = None
+oneSecTimer: Timer
 
 
 # We should have a valid IP now via DHCP
@@ -151,14 +165,13 @@ def takePictures(client: socket.socket):
     client.close()
 
 def handleOneRequest():
-    wifiHandlingClock.tick()
     try:
         global command
         global client
         global addr
         global sock
 
-        # print("Checking for waiting connections...")
+        print("Checking for waiting connections...")
         client, addr = sock.accept()
         print("Connected to " + addr[0] + ":" + str(addr[1]))
 
@@ -194,20 +207,21 @@ def handleOneRequest():
             print(f"Fehler in Socket Handling: {e}, type {type(e)}")
     except Exception as e:
         print(f"Fehler in handleOneRequest: {e}")
-    finally:
-        print(f"Wifi Handler took {wifiHandlingClock.avg()} milliseconds")
 
 
-def runBackgroundLoop(s):
+def runBackgroundLoop():
     global stream
     global handleOneConnectionOnNextIteration
     global command
     global client
     global addr
+    global oneSecTimer
 
     if(handleOneConnectionOnNextIteration):
-        handleOneRequest()
         handleOneConnectionOnNextIteration = False
+        #oneSecTimer.callback(None)
+        handleOneRequest()
+        #oneSecTimer.callback(oneSecondInterrupt)
 
     if(not client is None):
         if command == "SEND_WEBSITE":
@@ -248,6 +262,7 @@ def runBackgroundLoop(s):
             print(f"closing connection to client: {addr}")
         client.close()
         client = None
+    time.sleep_ms(0)
 
 def oneSecondInterrupt(timer):
     global handleOneConnectionOnNextIteration
@@ -255,13 +270,14 @@ def oneSecondInterrupt(timer):
 
 # setup timer interrupt
 try:
-    Timer(3).init(freq=1,callback=oneSecondInterrupt, mode=Timer.UP)
+    oneSecTimer = Timer(3)
+    oneSecTimer.init(freq=50,callback=oneSecondInterrupt, mode=Timer.UP)
 except Exception as e:
     print(f"Error with Timer setup: {e}")
 
 while True:
     try:
-        runBackgroundLoop(sock)
+        runBackgroundLoop()
     except OSError as e:
         command = ""
         print("socket error: ", e)
