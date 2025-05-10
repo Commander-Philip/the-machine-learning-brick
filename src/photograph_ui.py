@@ -12,10 +12,10 @@ import sensor
 import time
 import network
 import socket
-import random
 import machine
 from pyb import Timer
 import micropython
+import os
 
 def timed_function(f, *args, **kwargs):
     myname = str(f).split(' ')[1]
@@ -54,6 +54,7 @@ class MjpegStream:
             "Pragma: no-cache\r\n\r\n"
         )
 
+    @timed_function
     def runFrame(self):
         now = time.ticks_ms()
         if(debug):
@@ -77,6 +78,66 @@ class MjpegStream:
                     raise ClientClosedStreamException()
             except Exception as e:
                 print(f"Error: {e}")
+
+class PictureWriter:
+    __FILE_ENDING = ".jpg"
+
+    def __init__(self, pictureSensor: sensor, outputFolder: str):
+        """
+        Args:
+            sensor (sensor): Der Konfigurierte Fotosensor.
+            outputFolder (str): Relativer Pfad um die Fotos abzulegen. Mit führendem "/".
+
+        Example:
+            pictureWriter = PictureWriter(sensor, "/pictures")
+        """
+        self.__outputFolder = f"/sdcard{outputFolder}"
+        self.__sensor = pictureSensor
+        self.lastFileNumber = -1
+
+    def writeFile(self, prefix: str):
+        previousFolder = os.getcwd()
+        try:
+            os.mkdir(self.__outputFolder)
+        except OSError:
+            pass
+        os.chdir(self.__outputFolder)
+        if debug:
+            print(f"Current Folder: {os.getcwd()}")
+
+        fileName = self.createFileName(prefix)
+        if debug:
+            print(f"Saving snapshot {fileName} on SD-Card.")
+        self.__sensor.snapshot().save(fileName) # Codezeile aus snapshot_on_face_detection
+        client.sendall("HTTP/1.1 200 OK\r\n")
+
+        os.chdir(previousFolder)
+
+    def createFileName(self, prefix: str | None):
+        frontalFileName: str
+
+        if(prefix is not None):
+            frontalFileName = f"{prefix}-snapshot-"
+        else:
+            frontalFileName = "snapshot-"
+
+        if self.lastFileNumber == -1:
+            self.lastFileNumber = self.findBiggestFileNumber(frontalFileName)
+
+        self.lastFileNumber+=1
+        return f"{frontalFileName}{self.lastFileNumber}{self.__FILE_ENDING}"
+
+    def findBiggestFileNumber(self, frontalFileName: str):
+        fileNumber = 0
+
+        for fileName in os.listdir(self.__outputFolder):
+            if fileName.startswith(frontalFileName) and fileName.endswith(self.__FILE_ENDING):
+                currentNumber = int(fileName[len(frontalFileName):-len(self.__FILE_ENDING)])
+
+                if currentNumber > fileNumber:
+                    fileNumber = currentNumber
+
+        return fileNumber
 
 
 SSID = "switch2"  # Network SSID
@@ -114,7 +175,6 @@ addr = 0
 stream: MjpegStream = None
 oneSecTimer: Timer
 
-
 # We should have a valid IP now via DHCP
 print("WiFi Connected ", wlan.ifconfig())
 
@@ -130,6 +190,8 @@ print("Socket bound and listening")
 # Set server socket to blocking
 sock.setblocking(False)
 
+pictureWriter = PictureWriter(sensor, "/pictures")
+
 def sendWebsite(client: socket.socket):
     client.sendall(
         "HTTP/1.1 200 OK\r\n"
@@ -140,29 +202,28 @@ def sendWebsite(client: socket.socket):
     )
 
     page = (
-    '<html>'
+    '<!DOCTYPE html>'
+    '<html lang="de">'
         '<head></head>'
         '<body>'
-            '<img src="/stream" alt="MJpeg-Stream">'
-            '<button onclick="savePicture()">Bild aufnehmen!</button>'
             '<script>'
               'function savePicture() {'
-                'fetch("/picture");'
+                'let date = new Date().toISOString().split("T")[0];'
+                'console.log(date);'
+                'fetch(`/picture?date=${date}`);'
               '}'
             '</script>'
+            '<img src="/stream" alt="MJpeg-Stream">'
+            '<button onclick="savePicture()">Bild aufnehmen!</button>'
         '</body>'
     '</html>')
 
 
     client.sendall(page)
-    client.close()
 
-
-def takePictures(client: socket.socket):
-    print("Requested to take Snapshots and save them!")
-    sensor.snapshot().save("snapshot-%d.jpg" % random.getrandbits(32)) # Codezeile aus snapshot_on_face_detection
-    client.sendall("HTTP/1.1 200 OK\r\n")
-    client.close()
+def takePictures(client: socket.socket, prefix: str | None = None):
+    print("writing File")
+    pictureWriter.writeFile(prefix)
 
 def handleOneRequest():
     try:
@@ -192,7 +253,7 @@ def handleOneRequest():
             command = "SEND_WEBSITE"
         elif path == "/favicon.ico":
             client.sendall("HTTP/1.1 404 Bad Request\r\n")
-        elif path == "/picture":
+        elif path.startswith("/picture"):
             if(debug):
                 print("Nehme Bilder auf...")
             command = "TAKE_PICTURES"
@@ -219,16 +280,18 @@ def runBackgroundLoop():
 
     if(handleOneConnectionOnNextIteration):
         handleOneConnectionOnNextIteration = False
-        #oneSecTimer.callback(None)
+        oneSecTimer.callback(None)
         handleOneRequest()
-        #oneSecTimer.callback(oneSecondInterrupt)
+        oneSecTimer.callback(oneSecondInterrupt)
 
     if(not client is None):
         if command == "SEND_WEBSITE":
             sendWebsite(client);
+            client.close()
 
         elif command == "TAKE_PICTURES":
             takePictures(client)
+            client.close()
 
         elif command == "START_STREAM" and stream is None:
             if(debug):
