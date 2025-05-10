@@ -10,7 +10,9 @@ Die Ausgabe sieht ungefähr so aus:
 6. Den PC ebenfalls mit dem Smartphone Hotspot verbinden
 7. Browser öffnen
 8. Adresse `http://{hier-ip-von-Schritt-5-einfügen}:8080 aufrufen
-9. Nun sollte nach kurzer Ladezeit der Stream und ein Knopf zu sehen sein
+9. Nun sollte nach kurzer Ladezeit der Stream und ein Button zu sehen sein
+10. Wenn man nun den Button betätigt, wird das Board ein Bild aufnehmen und auf der SD Karte im Ordner pictures speichern (Nicht 100% Zuverlässig. Bitte nicht zu schnell hintereinander drücken)
+11. Board als Datenträger einbinden und Bilder anschauen
 
 ## CPU Takt
 480 MHz
