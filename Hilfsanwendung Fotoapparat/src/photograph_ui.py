@@ -17,6 +17,13 @@ from pyb import Timer
 import micropython
 import os
 
+WEBSITE_PATH= "/sdcard/website/index.html"
+SSID = "switch2"  # Network SSID
+KEY = "hellebarde"  # Network key
+HOST = ""  # Use first available interface
+PORT = 8080  # Arbitrary non-privileged port
+debug = False
+
 def timed_function(f, *args, **kwargs):
     myname = str(f).split(' ')[1]
     def new_func(*args, **kwargs):
@@ -80,7 +87,7 @@ class MjpegStream:
                 print(f"Error: {e}")
 
 class PictureWriter:
-    __FILE_ENDING = ".jpg"
+    _FILE_ENDING = ".jpg"
 
     def __init__(self, pictureSensor: sensor, outputFolder: str):
         """
@@ -91,24 +98,24 @@ class PictureWriter:
         Example:
             pictureWriter = PictureWriter(sensor, "/pictures")
         """
-        self.__outputFolder = f"/sdcard{outputFolder}"
-        self.__sensor = pictureSensor
+        self._outputFolder = f"/sdcard{outputFolder}"
+        self._sensor = pictureSensor
         self.lastFileNumber = -1
 
     def writeFile(self, prefix: str):
         previousFolder = os.getcwd()
         try:
-            os.mkdir(self.__outputFolder)
+            os.mkdir(self._outputFolder)
         except OSError:
             pass
-        os.chdir(self.__outputFolder)
+        os.chdir(self._outputFolder)
         if debug:
             print(f"Current Folder: {os.getcwd()}")
 
         fileName = self.createFileName(prefix)
         if debug:
             print(f"Saving snapshot {fileName} on SD-Card.")
-        self.__sensor.snapshot().save(fileName) # Codezeile aus snapshot_on_face_detection
+        self._sensor.snapshot().save(fileName) # Codezeile aus snapshot_on_face_detection
         client.sendall("HTTP/1.1 200 OK\r\n")
 
         os.chdir(previousFolder)
@@ -125,26 +132,19 @@ class PictureWriter:
             self.lastFileNumber = self.findBiggestFileNumber(frontalFileName)
 
         self.lastFileNumber+=1
-        return f"{frontalFileName}{self.lastFileNumber}{self.__FILE_ENDING}"
+        return f"{frontalFileName}{self.lastFileNumber}{self._FILE_ENDING}"
 
     def findBiggestFileNumber(self, frontalFileName: str):
         fileNumber = 0
 
-        for fileName in os.listdir(self.__outputFolder):
-            if fileName.startswith(frontalFileName) and fileName.endswith(self.__FILE_ENDING):
-                currentNumber = int(fileName[len(frontalFileName):-len(self.__FILE_ENDING)])
+        for fileName in os.listdir(self._outputFolder):
+            if fileName.startswith(frontalFileName) and fileName.endswith(self._FILE_ENDING):
+                currentNumber = int(fileName[len(frontalFileName):-len(self._FILE_ENDING)])
 
                 if currentNumber > fileNumber:
                     fileNumber = currentNumber
 
         return fileNumber
-
-
-SSID = "switch2"  # Network SSID
-KEY = "hellebarde"  # Network key
-HOST = ""  # Use first available interface
-PORT = 8080  # Arbitrary non-privileged port
-debug = False
 
 print(f"Frequenz {machine.freq()}")
 if debug:
@@ -201,25 +201,13 @@ def sendWebsite(client: socket.socket):
         "Pragma: no-cache\r\n\r\n"
     )
 
-    page = (
-    '<!DOCTYPE html>'
-    '<html lang="de">'
-        '<head></head>'
-        '<body>'
-            '<script>'
-              'function savePicture() {'
-                'let date = new Date().toISOString().split("T")[0];'
-                'console.log(date);'
-                'fetch(`/picture?date=${date}`);'
-              '}'
-            '</script>'
-            '<img src="/stream" alt="MJpeg-Stream">'
-            '<button onclick="savePicture()">Bild aufnehmen!</button>'
-        '</body>'
-    '</html>')
+    try:
+        with open(WEBSITE_PATH, "r") as website:
+            html = website.read()
+            client.sendall(html)
+    except Exception as e:
+        print(f"Exception {e} of type {type(e)} occured in sendWebsite!")
 
-
-    client.sendall(page)
 
 def takePictures(client: socket.socket, prefix: str | None = None):
     print("writing File")
