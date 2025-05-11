@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head></head>
-  <body style="margin: 0; padding: 0">
+  <head>
+    <title>Fotoapparat - OpenMV</title>
     <script>
-      function savePicture() {
+      function showMessage(id, timeout = 2000) {
+        const div = document.getElementById(id);
+        div.style.visibility = "visible";
+        setTimeout(hideMessage, timeout);
+      }
+
+      function hideMessage() {
+        const div = document.getElementById("foto-save-succeeded");
+        div.style.visibility = "hidden";
+      }
+
+      async function savePicture() {
         let date = new Date().toISOString().split("T")[0];
         console.log(date);
-        fetch(`/picture?date=${date}`);
+
+        try {
+          await fetch(`/picture?date=${date}`, {
+            signal: AbortSignal.timeout(2000),
+          });
+          showMessage("foto-save-succeeded");
+        } catch (e) {
+          showMessage("foto-save-failed");
+          console.log("Fehler beim Fotografieren: ", e);
+        }
       }
     </script>
+  </head>
+  <body style="margin: 0; padding: 0">
     <div
       style="
         width: 100vw;
@@ -47,5 +69,40 @@
         Einzelbild aufnehmen
       </button>
     </div>
+    <div
+      id="foto-save-succeeded"
+      style="
+        position: absolute;
+        bottom: 5rem;
+        left: auto;
+        right: auto;
+        visibility: hidden;
+        background-color: #168421;
+        padding-inline: 1rem;
+        padding-block: 0.7rem;
+        border-radius: 4px;
+        box-shadow: 4px 4px 8px #666;
+      "
+    >
+      <span> Foto erfolgreich gespeichert! </span>
+    </div>
+    <div
+      id="foto-save-failed"
+      style="
+        position: absolute;
+        bottom: 5rem;
+        left: auto;
+        right: auto;
+        visibility: hidden;
+        background-color: #841616;
+        padding-inline: 1rem;
+        padding-block: 0.7rem;
+        border-radius: 4px;
+        box-shadow: 4px 4px 8px #666;
+      "
+    >
+      <span> Foto speichern fehlgeschlagen! </span>
+    </div>
+    <div class="notification-container"></div>
   </body>
 </html>
