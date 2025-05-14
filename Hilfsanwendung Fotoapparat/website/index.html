@@ -17,7 +17,7 @@
     </style>
     <title>Fotoapparat - OpenMV</title>
     <script>
-      function addNotification(message, backgroundColor, timeout = 2000) {
+      function addNotification(message, backgroundColor, hideAfterMs = 2500) {
         const container = document.getElementById("notification-container");
         const template = document.getElementById("notification-template");
         const notification = template.content
@@ -30,7 +30,7 @@
         container.appendChild(notification);
         setTimeout(
           () => removeChild("notification-container", notification),
-          timeout
+          hideAfterMs
         );
       }
 
@@ -41,23 +41,29 @@
       }
 
       function showSuccessNotification(message) {
-        addNotification(`&#10004; ${message}`, "#49c356", 2000);
+        addNotification(`&#10004; ${message}`, "#49c356", 2500);
       }
 
       function showFailureNotification(message) {
-        addNotification(`&#10008; ${message}`, "#d75050", 2000);
+        addNotification(`&#10008; ${message}`, "#d75050", 2500);
       }
 
       async function savePicture(event) {
         event.preventDefault();
-        let date = new Date().toISOString().split("T")[0];
-        const filePrefix = event.target.elements["file-prefix"].value;
+        let dateOfPicture = new Date().toISOString().split("T")[0];
+        const filenamePrefix = event.target.elements["filename-prefix"].value;
 
         try {
-          await fetch(`/picture?date=${date}&prefix=${filePrefix}`, {
-            signal: AbortSignal.timeout(2000),
-          });
-          showSuccessNotification("Foto erfolgreich gespeichert");
+          const response = await fetch(
+            `/picture?date-of-picture=${dateOfPicture}&filename-prefix=${filenamePrefix}`,
+            {
+              method: "post",
+              signal: AbortSignal.timeout(2000),
+            }
+          );
+          showSuccessNotification(
+            `Foto ${await response.text()} erfolgreich gespeichert`
+          );
         } catch (e) {
           showFailureNotification("Foto speichern fehlgeschlagen!");
           console.warn("Fehler beim Fotografieren: ", e);
@@ -95,18 +101,23 @@
         onsubmit="savePicture(event)"
         style="display: flex; flex-flow: column nowrap; gap: 1rem"
       >
-        <input
-          style="
-            height: 12;
-            font-size: x-large;
-            box-shadow: var(--drop-shadow);
-            padding-block: 0.5rem;
-            padding-inline: 1rem;
-          "
-          name="file-prefix"
-          type="text"
-          placeholder="Präfix für Dateinamen"
-        />
+        <div>
+          <label for="filename-prefix" style="display: block"
+            >Präfix für den Dateinamen</label
+          >
+          <input
+            style="
+              height: 12;
+              font-size: x-large;
+              box-shadow: var(--drop-shadow);
+              padding-block: 0.5rem;
+              padding-inline: 1rem;
+            "
+            name="filename-prefix"
+            type="text"
+            placeholder="Dateiname"
+          />
+        </div>
         <button
           type="submit"
           style="

@@ -18,8 +18,8 @@ import micropython
 import os
 
 WEBSITE_PATH= "/sdcard/website/index.html"
-SSID = "switch2"  # Network SSID
-KEY = "hellebarde"  # Network key
+SSID = "Linker-Network"  # Network SSID
+KEY = "90117459"  # Network key
 HOST = ""  # Use first available interface
 PORT = 8080  # Arbitrary non-privileged port
 debug = False
@@ -102,7 +102,8 @@ class PictureWriter:
         self._sensor = pictureSensor
         self.lastFileNumber = -1
 
-    def writeFile(self, prefix: str):
+    @timed_function
+    def writeFile(self, filenamePrefix: str = None, dateOfPicture: str = None):
         previousFolder = os.getcwd()
         try:
             os.mkdir(self._outputFolder)
@@ -112,34 +113,45 @@ class PictureWriter:
         if debug:
             print(f"Current Folder: {os.getcwd()}")
 
-        fileName = self.createFileName(prefix)
+        filename = self.createFileName(filenamePrefix, dateOfPicture)
         if debug:
-            print(f"Saving snapshot {fileName} on SD-Card.")
-        self._sensor.snapshot().save(fileName) # Codezeile aus snapshot_on_face_detection
-        client.sendall("HTTP/1.1 200 OK\r\n")
+            print(f"Saving snapshot {filename} on SD-Card...")
+
+        self._sensor.snapshot().save(filename) # Codezeile aus snapshot_on_face_detection
+
+        client.sendall(
+            "HTTP/1.1 201 Created\r\n"
+            "Content-Type: text/plain\r\n"
+            f"Content-Length: {len(filename)}\r\n"
+            "\r\n"
+            f"{filename}\r\n"
+        )
 
         os.chdir(previousFolder)
 
-    def createFileName(self, prefix: str | None):
-        frontalFileName: str
+    def createFileName(self, filenamePrefix: str = None, dateInfix: str = None):
+        frontalFilename: str
 
-        if(prefix is not None):
-            frontalFileName = f"{prefix}-snapshot-"
+        if (not isStringNullOrBlank(filenamePrefix) and not isStringNullOrBlank(dateInfix)):
+            frontalFilename = f"{filenamePrefix}-{dateInfix}-"
+        elif (isStringNullOrBlank(filenamePrefix) and not isStringNullOrBlank(dateInfix)):
+            frontalFilename = f"snapshot-{dateInfix}-"
+        elif (not isStringNullOrBlank(filenamePrefix) and isStringNullOrBlank(dateInfix)):
+            frontalFilename = f"{filenamePrefix}-"
         else:
-            frontalFileName = "snapshot-"
+            frontalFilename = "snapshot-"
 
-        if self.lastFileNumber == -1:
-            self.lastFileNumber = self.findBiggestFileNumber(frontalFileName)
+        self.lastFileNumber = self.findBiggestFileNumber(frontalFilename)
 
         self.lastFileNumber+=1
-        return f"{frontalFileName}{self.lastFileNumber}{self._FILE_ENDING}"
+        return f"{frontalFilename}{self.lastFileNumber}{self._FILE_ENDING}"
 
-    def findBiggestFileNumber(self, frontalFileName: str):
+    def findBiggestFileNumber(self, frontalFilename: str):
         fileNumber = 0
 
         for fileName in os.listdir(self._outputFolder):
-            if fileName.startswith(frontalFileName) and fileName.endswith(self._FILE_ENDING):
-                currentNumber = int(fileName[len(frontalFileName):-len(self._FILE_ENDING)])
+            if fileName.startswith(frontalFilename) and fileName.endswith(self._FILE_ENDING):
+                currentNumber = int(fileName[len(frontalFilename):-len(self._FILE_ENDING)])
 
                 if currentNumber > fileNumber:
                     fileNumber = currentNumber
@@ -151,6 +163,7 @@ if debug:
     micropython.alloc_emergency_exception_buf(128)
 
 # Init wlan module and connect to network
+network.hostname("fotoapparat")
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
 wlan.connect(SSID, KEY)
@@ -170,6 +183,7 @@ framerateClock = time.clock()
 
 handleOneConnectionOnNextIteration = False
 command = ""
+commandArgs: dict[str,str] = {}
 client: socket.socket = None
 addr = 0
 stream: MjpegStream = None
@@ -192,6 +206,9 @@ sock.setblocking(False)
 
 pictureWriter = PictureWriter(sensor, "/pictures")
 
+def isStringNullOrBlank(stringToCheck: str):
+    return stringToCheck is None or stringToCheck.strip() == ""
+
 def sendWebsite(client: socket.socket):
     client.sendall(
         "HTTP/1.1 200 OK\r\n"
@@ -209,20 +226,41 @@ def sendWebsite(client: socket.socket):
         print(f"Exception {e} of type {type(e)} occured in sendWebsite!")
 
 
-def takePictures(client: socket.socket, prefix: str | None = None):
-    print("writing File")
-    pictureWriter.writeFile(prefix)
+def takePictures(client: socket.socket, filenamePrefix: str = None, dateOfPicture: str = None):
+    pictureWriter.writeFile(filenamePrefix, dateOfPicture)
+
+def parseUrlAndQueryString(requestUri:str):
+    if("?" in requestUri):
+        path, queryString = requestUri.split("?", 1)
+        queryParamDict = extractQueryParamDict(queryString)
+    else:
+        path = requestUri
+        queryParamDict = {}
+
+    return (path, queryParamDict)
+
+def extractQueryParamDict(queryString: str) -> dict[str]:
+    queryParamDict = {}
+    if("=" in queryString):
+        for param in queryString.split("&"):
+            key, value = param.split("=", 1)
+            queryParamDict[key] = value
+
+    return queryParamDict
 
 def handleOneRequest():
     try:
         global command
+        global commandArgs
         global client
         global addr
         global sock
 
-        print("Checking for waiting connections...")
+        if debug:
+            print("Checking for waiting connections...")
         client, addr = sock.accept()
-        print("Connected to " + addr[0] + ":" + str(addr[1]))
+        if debug:
+            print("Connected to " + addr[0] + ":" + str(addr[1]))
 
         # Read request from client
         data = client.recv(256)
@@ -230,10 +268,13 @@ def handleOneRequest():
             print("client closed the connection!")
             client.close()
         # Should parse client request here
-        print("data from client: {}".format(data))
+        if debug:
+            print("data from client: {}".format(data))
 
-        method, path, version = data.decode().split("\r\n")[0].split()
-        print(f"request: {method} {path} {version}")
+        method, requestUri, version = data.decode().split("\r\n")[0].split()
+        path, commandArgs = parseUrlAndQueryString(requestUri)
+        if debug:
+            print(f"request: {method} {path} {commandArgs} {version}")
 
         if path == "/":
             if(debug):
@@ -262,6 +303,7 @@ def runBackgroundLoop():
     global stream
     global handleOneConnectionOnNextIteration
     global command
+    global commandArgs
     global client
     global addr
     global oneSecTimer
@@ -270,7 +312,7 @@ def runBackgroundLoop():
         handleOneConnectionOnNextIteration = False
         oneSecTimer.callback(None)
         handleOneRequest()
-        oneSecTimer.callback(oneSecondInterrupt)
+        oneSecTimer.callback(timedInterrupt)
 
     if(not client is None):
         if command == "SEND_WEBSITE":
@@ -278,7 +320,7 @@ def runBackgroundLoop():
             client.close()
 
         elif command == "TAKE_PICTURES":
-            takePictures(client)
+            takePictures(client, commandArgs.get("filename-prefix"), commandArgs.get("date-of-picture"))
             client.close()
 
         elif command == "START_STREAM" and stream is None:
@@ -308,6 +350,7 @@ def runBackgroundLoop():
             print(e)
 
     command = ""
+    commandArgs = {}
     if(not client is None):
         if(debug):
             print(f"closing connection to client: {addr}")
@@ -315,14 +358,14 @@ def runBackgroundLoop():
         client = None
     time.sleep_ms(0)
 
-def oneSecondInterrupt(timer):
+def timedInterrupt(timer):
     global handleOneConnectionOnNextIteration
     handleOneConnectionOnNextIteration = True
 
 # setup timer interrupt
 try:
     oneSecTimer = Timer(3)
-    oneSecTimer.init(freq=50,callback=oneSecondInterrupt, mode=Timer.UP)
+    oneSecTimer.init(freq=50,callback=timedInterrupt, mode=Timer.UP)
 except Exception as e:
     print(f"Error with Timer setup: {e}")
 
