@@ -21,7 +21,7 @@ class PictureWriter:
         self.lastFileNumber = -1
 
     @timed_function
-    def writeFile(self, filenamePrefix: str = None, dateOfPicture: str = None):
+    def savePictureToFile(self, filenamePrefix: str = None, dateOfPicture: str = None):
         previousFolder = os.getcwd()
         try:
             os.mkdir(self._outputFolder)
@@ -35,7 +35,10 @@ class PictureWriter:
         if debug:
             print(f"Saving snapshot {filename} on SD-Card...")
 
+        oldFramesize = sensor.get_framesize()
+        sensor.set_framesize(sensor.HD)
         self._sensor.snapshot().save(filename) # Codezeile aus snapshot_on_face_detection
+        sensor.set_framesize(oldFramesize)
 
         os.chdir(previousFolder)
 
