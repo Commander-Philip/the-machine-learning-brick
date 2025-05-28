@@ -186,3 +186,4 @@ docs/**/generated
 # drawio geöffnete Datei
 *.drawio.bkp
 
+*.FCBak
