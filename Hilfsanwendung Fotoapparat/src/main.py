@@ -41,6 +41,8 @@ while not wlan.isconnected():
 sensor.reset()
 sensor.set_framesize(sensor.QVGA)
 sensor.set_pixformat(sensor.RGB565)
+sensor.set_vflip(True)
+sensor.set_hmirror(True)
 
 # FPS clock
 framerateClock = time.clock()
