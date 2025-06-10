@@ -90,7 +90,7 @@ def sendWebsite(client: socket.socket):
 
 
 def takePictures(client: socket.socket, filenamePrefix: str = None, dateOfPicture: str = None):
-    writtenFileName = pictureWriter.writeFile(filenamePrefix, dateOfPicture)
+    writtenFileName = pictureWriter.savePictureToFile(filenamePrefix, dateOfPicture)
 
     client.sendall(
         "HTTP/1.1 201 Created\r\n"
