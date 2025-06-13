@@ -37,7 +37,7 @@
         <mxCell id="BTwWowXK8OzWULGBCGrD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BTwWowXK8OzWULGBCGrD-24" target="BTwWowXK8OzWULGBCGrD-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BTwWowXK8OzWULGBCGrD-57" value="Bilddatei (JPG?)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="BTwWowXK8OzWULGBCGrD-56" vertex="1" connectable="0">
+        <mxCell id="BTwWowXK8OzWULGBCGrD-57" value="JPG&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Bilddatei&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="BTwWowXK8OzWULGBCGrD-56" vertex="1" connectable="0">
           <mxGeometry x="-0.3384" y="1" relative="1" as="geometry">
             <mxPoint y="-24" as="offset" />
           </mxGeometry>
@@ -64,24 +64,23 @@
         <mxCell id="BTwWowXK8OzWULGBCGrD-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BTwWowXK8OzWULGBCGrD-43" target="BTwWowXK8OzWULGBCGrD-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BTwWowXK8OzWULGBCGrD-43" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" parent="1" vertex="1">
-          <mxGeometry x="740" y="641" width="95.92" height="130" as="geometry" />
+        <mxCell id="6YIQMPN3SYnKxBpJOwxz-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BTwWowXK8OzWULGBCGrD-43" target="BTwWowXK8OzWULGBCGrD-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BTwWowXK8OzWULGBCGrD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BTwWowXK8OzWULGBCGrD-5" target="BTwWowXK8OzWULGBCGrD-43" edge="1">
+        <mxCell id="BTwWowXK8OzWULGBCGrD-43" value="&lt;span style=&quot;font-size: 18px; text-align: left;&quot;&gt;MatLab:&lt;br&gt;Training&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px; text-align: left;&quot;&gt;mit aufgenommenen&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px; text-align: left;&quot;&gt;Bildern&lt;/span&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" parent="1" vertex="1">
+          <mxGeometry x="570" y="600" width="95.92" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="BTwWowXK8OzWULGBCGrD-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="BTwWowXK8OzWULGBCGrD-43" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="580" y="670" as="targetPoint" />
+            <mxPoint x="640" y="663.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="430" y="706" />
+              <mxPoint x="430" y="664" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BTwWowXK8OzWULGBCGrD-47" value="Manuelles Training&lt;br&gt;mit aufgenommenen&lt;br&gt;Bildern" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=18;" parent="BTwWowXK8OzWULGBCGrD-44" vertex="1" connectable="0">
-          <mxGeometry x="0.1053" relative="1" as="geometry">
-            <mxPoint x="-69" y="-66" as="offset" />
+            <mxPoint x="430" y="530" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BTwWowXK8OzWULGBCGrD-46" value="Machine-Learning Model" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.bots;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="677.5" width="60" height="57" as="geometry" />
+          <mxGeometry x="1020" y="636.5" width="60" height="57" as="geometry" />
         </mxCell>
         <mxCell id="BTwWowXK8OzWULGBCGrD-52" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" source="BTwWowXK8OzWULGBCGrD-1" target="BTwWowXK8OzWULGBCGrD-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
