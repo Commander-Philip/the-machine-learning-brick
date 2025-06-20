@@ -6,6 +6,10 @@ debug = False
 
 class PictureWriter:
     _FILE_ENDING = ".jpg"
+    _lastFrontalFileName = None
+    _lastFileNumber = 0
+    _outputFolder = ""
+    _parentFolder = ""
 
     def __init__(self, pictureSensor: sensor, outputFolder: str):
         """
@@ -16,13 +20,17 @@ class PictureWriter:
         Example:
             pictureWriter = PictureWriter(sensor, "/pictures")
         """
-        self._outputFolder = f"/sdcard{outputFolder}"
+        self._parentFolder = f"/sdcard{outputFolder}"
         self._sensor = pictureSensor
-        self.lastFileNumber = -1
+        try:
+            os.mkdir(self._parentFolder)
+        except OSError:
+            pass
 
     @timed_function
     def savePictureToFile(self, filenamePrefix: str = None, dateOfPicture: str = None):
         previousFolder = os.getcwd()
+        self._outputFolder = self._parentFolder + "/" + filenamePrefix
         try:
             os.mkdir(self._outputFolder)
         except OSError:
@@ -56,22 +64,25 @@ class PictureWriter:
         else:
             frontalFilename = "snapshot-"
 
-        self.lastFileNumber = self.findBiggestFileNumber(frontalFilename)
+        self.lastFileNumber = self.findNextFileNumber(frontalFilename)
 
-        self.lastFileNumber+=1
         return f"{frontalFilename}{self.lastFileNumber}{self._FILE_ENDING}"
 
     def isStringNullOrBlank(self, stringToCheck: str):
         return stringToCheck is None or stringToCheck.strip() == ""
 
-    def findBiggestFileNumber(self, frontalFilename: str):
-        fileNumber = 0
+    def findNextFileNumber(self, frontalFilename: str):
+        fileNumber = 1
+        if self._lastFrontalFileName == frontalFilename:
+            fileNumber = self._lastFileNumber + 1
+        else:
+            for fileName in os.listdir(self._outputFolder):
+                if fileName.startswith(frontalFilename) and fileName.endswith(self._FILE_ENDING):
+                    currentNumber = int(fileName[len(frontalFilename):-len(self._FILE_ENDING)])
 
-        for fileName in os.listdir(self._outputFolder):
-            if fileName.startswith(frontalFilename) and fileName.endswith(self._FILE_ENDING):
-                currentNumber = int(fileName[len(frontalFilename):-len(self._FILE_ENDING)])
+                    if currentNumber > fileNumber:
+                        fileNumber = currentNumber + 1
 
-                if currentNumber > fileNumber:
-                    fileNumber = currentNumber
-
+        self._lastFrontalFileName = frontalFilename
+        self._lastFileNumber = fileNumber
         return fileNumber

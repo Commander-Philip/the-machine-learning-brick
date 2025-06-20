@@ -50,9 +50,16 @@
       }
 
       async function savePicture(event) {
+        const form = event.target;
+        console.log(form);
+        console.log("isValid: ", form.checkValidity());
+        if (!form.checkValidity()) {
+          form.reportValidity();
+        }
+
         event.preventDefault();
         let dateOfPicture = new Date().toISOString().split("T")[0];
-        const filenamePrefix = event.target.elements["filename-prefix"].value;
+        const filenamePrefix = form.elements["filename-prefix"].value;
 
         try {
           const response = await fetch(
@@ -117,6 +124,7 @@
             name="filename-prefix"
             type="text"
             placeholder="Dateiname"
+            pattern="[a-zA-Z0-9\-_]*"
           />
         </div>
         <button
