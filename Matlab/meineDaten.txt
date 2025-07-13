@@ -1,0 +1,838 @@
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__1.jpg
+754.351399536733,225.760907089762,16.3728786421014
+529.285426268252,149.958321592938,21.6643112475421
+481.396714577846,448.050624263447,18.4492687979104
+58.3192738252638,437.100305709969,23.6054026972902
+319.25918407265,331.470975208214,18.345146410002
+257.030267530605,150.725990965843,17.9364467375203
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__10.jpg
+832.656516759031,236.804485591396,27.5062049448398
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__11.jpg
+878.147748681696,244.257488789014,28.4022869281511
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__12.jpg
+909.127073580534,260.967741164125,32.3974019532195
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__13.jpg
+991.463987283911,294.352293408215,37.0031827278161
+944.549519071731,582.040369183851,22.2716117784753
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__14.jpg
+1015.84248102754,307.92523409079,40.5835110623681
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__15.jpg
+1094.67556608466,18.4634914091786,21.4457341019107
+1060.22150823556,322.765331859367,44.3756984555015
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__16.jpg
+1130.24338991861,336.213300836709,48.4725107980272
+1138.45192527691,697.995003109228,18.3333970879235
+1050.49529608558,698.335066527443,17.6052145673628
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__17.jpg
+1141.249494479,336.478529043293,52.3124265546184
+1144.98040128916,718.347670699324,17.949181459904
+1050.52978139085,717.994419398592,18.1155063785471
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__2.jpg
+702.446996991457,245.627304739605,16.9609435491532
+1004.09043762435,12.9671567125663,20.3996724639693
+671.237829844295,483.828634655629,18.1828072679631
+345.336543997022,489.09891205934,17.5439063751928
+283.909131942088,487.863333579776,17.1865030573318
+1065.11865842872,19.7961837101728,18.6834126759999
+51.7915141918312,463.359736705991,25.8634975487842
+541.68751675942,486.753175502497,20.0858313824525
+114.373078604537,404.076122780092,17.4309021849039
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__3.jpg
+746.787617639464,271.401405747659,17.4742883123627
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__4.jpg
+801.185805821509,256.169930136157,19.4823421134328
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__5.jpg
+811.920059929914,248.322039135644,19.9110932026733
+1108.2832952305,13.9551043110389,18.0049480201359
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__6.jpg
+841.036691774429,236.656271229546,21.2718422643782
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__7.jpg
+854.477168271135,231.885136140799,21.9646239657676
+951.659774553716,642.422690214869,17.6848486810816
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__8.jpg
+855.923483449778,229.966411915731,23.2601952964892
+977.432532786311,691.898461538476,19.358908641471
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Ackerstraße\Durchfahrt_Verboten_Einbahnstraße-2025-06-06__9.jpg
+845.228714743972,230.642305548606,24.4702182542634
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Bushaltestelle\Durchfahrt_Verboten_Einbahnstraße-2025-06-05__1.jpg
+493.244599454442,276.184603389315,23.2316027116015
+919.295214920672,48.0210652451409,22.2651179078144
+538.990840254679,58.2719872795908,19.757388381886
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Bushaltestelle\Durchfahrt_Verboten_Einbahnstraße-2025-06-05__2.jpg
+672.312962931847,338.595738210223,30.6148497354982
+679.803951372767,604.842421221497,24.6379950528592
+895.999866688989,158.955291794909,19.9680641846046
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Bushaltestelle\Durchfahrt_Verboten_Einbahnstraße-2025-06-05__3.jpg
+916.727809901854,364.252966366859,37.8301840026286
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Bushaltestelle\Durchfahrt_Verboten_Einbahnstraße-2025-06-05__4.jpg
+1024.06510980686,365.088968424674,38.5088546766519
+1237.01704465499,684.805539230671,24.2365610990123
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Bushaltestelle\Durchfahrt_Verboten_Einbahnstraße-2025-06-05__5.jpg
+1069.82200555116,366.62959465734,37.5758564051892
+590.258720651157,219.047019975348,18.2327107578872
+956.234463610144,41.7908052951141,20.3864191176792
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Durchfahrt Verboten Einbahnstraße\Bushaltestelle\Durchfahrt_Verboten_Einbahnstraße-2025-06-05__6.jpg
+1200.93738404576,379.719665634314,48.4188868596446
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__1.jpg
+822.801626271474,243.664273963856,21.0694988941255
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__2.jpg
+810.291453434666,238.597275558469,23.3394034221033
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__3.jpg
+857.512087404901,271.30645651345,26.7044367441591
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__4.jpg
+889.967708255613,295.039102471121,29.1128510988463
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__5.jpg
+927.294275382841,316.350544607669,29.9072948709033
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__6.jpg
+966.46377256805,337.401205473591,34.0487200286125
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__7.jpg
+1012.0566302786,353.182535049272,36.2762754407287
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__8.jpg
+1071.17388046327,374.792051155658,41.4308619760287
+1079.35419301769,25.095985967868,18.5166245291083
+1089.20047685568,705.19942130196,17.4810072755808
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Ackerstraße\Geschwindigkeitsbegrenzung_100-2025-06-06__9.jpg
+1138.85649850576,393.465229172746,49.1550944407295
+838.305483306081,699.509094496273,17.0130283131634
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__1.jpg
+811.652664838662,347.555249409644,17.2300323932965
+971.284031158751,145.207156596237,16.9151206348023
+59.4824977073397,515.246300049529,28.0551659330466
+1224.00270015414,681.975705656189,25.6099110129535
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__2.jpg
+828.635523269733,345.193790043669,18.3431163291251
+803.837610792511,53.2310369568871,19.4401521419523
+297.958154903054,50.8408439208447,25.2773950717935
+295.754591958745,151.945029001612,27.7248407261347
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__3.jpg
+853.305405632265,348.259635732306,19.5029301574576
+803.003522729814,43.9233451093317,20.7696068103836
+294.027354617702,40.1096850053507,23.06190485334
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__4.jpg
+877.478446759603,342.865615505946,21.9778549562788
+276.146057898414,128.818116346252,25.9903779220209
+796.171253320074,24.6780605964588,20.280836356039
+285.415619940582,23.9462049406047,22.5945863739206
+50.8652075887859,490.135824669575,31.4318487103991
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__5.jpg
+909.470391269612,328.960685367583,24.1954985936811
+274.303561642846,103.909825840571,25.9625406678295
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__6.jpg
+961.890531089816,301.34701191849,27.8341766452959
+283.28641341071,66.1496691228013,29.4540063885537
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__7.jpg
+1006.1525225517,288.185405294817,30.791532572191
+273.673104529808,39.5334598844878,27.6386401226853
+95.5988060890578,28.9730043071867,29.568844734112
+1008.15579530928,458.770301123482,22.4620721558855
+93.4395746842603,48.1990270065813,22.1556540588651
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__8.jpg
+1062.91797544857,340.053260576015,34.6873253581806
+269.039294100465,91.7210474572894,26.3362943297515
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 100\Bushaltestelle\Geschwindigkeitsbegrenzung_100-2025-06-05__9.jpg
+1130.11553639689,399.442221114816,37.6593626162673
+789.548408413343,24.2233429263085,21.551345814486
+264.278919394366,134.139858500478,27.0733184827167
+266.613735577607,22.9501828138969,21.7509122069165
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__1.jpg
+810.989314197192,274.281614920932,17.5582526021411
+780.267416495283,520.429771143126,19.9805518141881
+567.148319475479,524.435020918204,22.5517195445018
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__10.jpg
+941.039412849087,309.955017943245,28.8162219184837
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__11.jpg
+985.478595583295,333.715293763524,31.0773255358506
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__12.jpg
+1034.94245803693,362.701046390507,34.601179053357
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__13.jpg
+1081.1549950365,384.875067347431,41.2131627765271
+1092.64847284573,686.910781489669,17.1972829313057
+1008.0176188817,689.508337045806,21.156947448385
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__14.jpg
+1153.2241015703,398.406930367759,45.4264607865551
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__2.jpg
+820.795151101057,288.61956322776,17.2553782078331
+417.489117610901,552.891243679836,21.3289362774135
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__3.jpg
+831.778720356855,286.871982171974,17.1685589214646
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__4.jpg
+842.66604575991,278.858478670109,16.5189658937265
+128.484709719759,597.936892377047,18.0322979709154
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__5.jpg
+881.958642663904,267.526495510158,16.8287107623796
+1113.63014480419,529.295291767544,18.1961551763615
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__6.jpg
+889.99057272688,255.711613108896,18.728602121646
+988.449986424845,634.986856974155,19.8662533054326
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__7.jpg
+802.448719275467,240.333805199671,21.092729091644
+921.487968252564,691.962502485879,19.1510319967016
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__8.jpg
+847.335327059602,244.982870059309,24.0772206640252
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\Geschwindigkeitsbegrenzung_30-2025-06-06__9.jpg
+892.026506089291,271.321360520368,26.2925444591394
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\test.jpg
+811.259525668576,274.626367066409,16.7904562749553
+428.226345244745,523.370667491322,20.8320402912583
+694.305336707401,162.302354322827,19.0158634721362
+778.800888611627,518.699687398994,20.4329325519516
+574.103430135127,174.428798866081,22.874475723996
+148.360264378686,509.565954573601,25.0302467102775
+778.166747354016,161.356796378227,20.1752213290537
+679.556079896534,160.676669584487,23.1339908795076
+70.6707583630814,469.430310177898,22.9358090307191
+569.524994236903,523.744663322544,21.7879405182132
+712.065098738869,522.485855819042,21.1261721988702
+497.246175374331,523.683850920611,19.6784963271432
+359.180322613267,523.128487419932,18.1352833312795
+640.515267777984,522.575506046079,22.3459276730709
+197.786391230847,421.948640460237,19.3990671576006
+157.802765084298,432.307229890702,21.006234159066
+240.749973879227,517.992852912141,20.0684756203658
+818.729982844127,368.206495315508,23.087663062609
+350.759718381714,365.336931169832,18.1403363198558
+109.785779178862,452.944977689194,24.2007290962069
+287.159512623018,522.803807863743,17.6203589281671
+558.364433959779,156.414843322687,33.811910530971
+337.537337007996,366.157588650183,18.1648546913037
+473.454676109802,375.914248803631,22.6489746295626
+26.7194326292356,486.223331795283,22.3736070828969
+833.269688988402,489.037293834269,16.404576817797
+627.013850880226,522.350577767539,22.4820498637662
+336.503316304444,343.737122584618,23.662597524185
+112.313203261891,494.729074753075,26.4560743307078
+433.006495147889,151.742539015596,18.5814790923626
+219.645739801184,518.940106947256,18.1281583269369
+52.3726388229827,480.355136539823,23.7640031476106
+1158.55459305445,506.769368635836,24.8161098892453
+795.471875081213,359.989918682812,23.2764897931773
+93.3324388143701,463.009793782046,26.6850838147216
+883.887060664152,425.40303853474,38.2244363338112
+398.897559655713,377.089535352923,21.2134822211182
+903.905874867459,627.835971072248,25.9966636019177
+250.320219920557,173.692584384462,21.7309353845967
+246.789398560229,393.390249477602,20.0258931858098
+125.676071774936,449.9561346442,26.7526128287885
+357.486125586567,691.545870901041,18.6361206472931
+481.079307581708,402.808752061271,18.6001262827945
+946.76864528612,458.53415734727,24.9896906979723
+1108.93215761061,18.743102862251,24.9525601253853
+1021.59702943987,504.708529141305,21.6166205122769
+301.122721974024,518.534752180744,19.3628359188512
+842.291041985913,506.086121637597,18.2773441662787
+758.788725059058,374.453957280329,28.1545875325457
+224.735173852835,398.154159601458,23.030638131404
+304.317564058209,169.765480482027,22.9481710172332
+855.69061211594,421.506870484104,32.8270358609046
+173.018740395481,428.113706957129,19.8993947435871
+675.563885611518,366.733574324113,29.6396492801242
+1125.95945752105,470.238936773324,17.3459359719168
+514.870774719859,375.183890971389,23.1207043465639
+927.993298167799,649.028366676112,19.1051973561696
+368.209383851508,409.650737583483,27.4117774548973
+436.790126325893,373.743338469028,23.9587100208105
+856.130752591994,527.04221791028,17.2047628462124
+990.731192903936,481.59929955041,19.2248086661612
+1053.82254789331,400.347616663227,17.1311960874303
+199.208181182911,517.323587985951,19.6312456486277
+261.576286579561,519.78409079729,19.4315904988547
+1069.57375147735,517.172424551804,20.2229371222192
+93.7411048165971,546.062816361778,24.9886536888739
+405.434148988378,406.402611493276,19.9663857819946
+122.547165398421,528.220058458277,23.456282485015
+113.131725429944,198.973785401745,21.9511876663561
+181.890038995826,518.253443393926,18.510689822088
+1170.73833326496,41.316870303935,25.1893470604756
+1245.89934307164,625.760081501357,20.1672992759866
+372.760096117437,155.529168333847,18.2310888439637
+1082.30414505483,41.1014354984951,19.4862556135071
+144.815690914457,442.948618231327,25.234268841357
+499.024696384476,137.33567723983,23.3704840518754
+454.855553004555,141.11369580954,22.0514155857176
+1154.68221757509,20.9323052037183,25.2961982078664
+862.34663970462,567.200267879026,18.2220368118053
+718.765524483218,371.976730102181,24.0145235142011
+1269.84628281933,100.85054179631,18.5215976317707
+42.583809228273,497.011904289469,29.9994252962465
+175.030776488499,174.270850804116,19.231026870697
+1080.79768993665,404.64288930233,17.6999892339176
+1028.98846270336,550.619199343465,22.5413618986214
+240.948986329318,421.524266232013,21.7951668793599
+444.289793796827,408.557649408134,25.2494425549056
+961.23215419501,697.985289451717,22.2726173159149
+795.214422393461,135.598862571161,31.5300495451464
+1027.23003499985,587.7379071923,26.8748248471922
+1253.96409315396,491.074804308026,18.1345640243898
+520.563144263432,401.383867663811,18.732735469172
+1058.07148244504,534.297647284326,24.336387670126
+1032.77633176202,516.856073616362,22.3196396534484
+977.064516993501,471.610838751025,20.31398728282
+396.623152526121,611.496109900121,19.948606189229
+267.872375509031,420.606540712822,17.2756758537443
+67.7273811803111,560.609090897883,20.9830182590846
+10.5036912398941,504.873920805051,21.5930914330373
+1042.60855610844,560.140837848961,22.84192270739
+593.584570256191,361.588443642199,30.5193257205936
+206.755188605509,173.262247859,21.3441823248855
+1035.66351807215,485.997183898489,18.7902614514014
+559.942656247549,400.385307026547,16.8301784095073
+1054.80353018202,351.585055514029,17.7899353168445
+9.45471586324279,555.750101016182,18.8788628289637
+1057.83494740663,504.153730975132,18.6284548797073
+557.02295458259,369.091700032069,27.5555063253374
+144.911162465838,188.847061305688,20.405587681016
+1261.07233761232,635.492733408263,21.7658424531662
+713.264233855877,399.352108692703,17.8051977393173
+1075.99735067041,642.206538377194,18.9049191700297
+919.97462328938,592.247092315473,50.3364508851258
+638.596446889915,367.026499345562,25.1790637432912
+8.09404302322204,523.056672726203,23.275081308294
+1054.45009351358,689.427255822881,17.8249917900457
+627.211224207885,258.587035306097,23.4753849003365
+988.058601590267,606.77669976928,26.0743103511953
+1082.12155096982,346.601509890566,17.2900129819766
+1122.94201117532,101.58404295551,23.7002537301904
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Ackerstraße\test2.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__1.jpg
+793.809965544902,310.998198473245,16.5807365535828
+59.720631175533,463.890767412759,26.5256634800409
+797.04701906674,29.3468251969477,23.192208803642
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__2.jpg
+803.318327651833,352.10265892496,18.0482449665384
+282.182647480394,57.3837751001181,23.1379238781354
+788.70278681572,61.1751639085579,23.6743025896801
+1274.1311278488,116.21503104209,18.8739990135357
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__3.jpg
+829.133927722231,354.219325297124,20.3413186610894
+266.588589618114,37.8684718232181,24.1253461394569
+780.596190956021,43.065481678499,26.7225136178564
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__4.jpg
+868.11490935245,360.326709893209,23.3588073492855
+1263.64737155324,89.6416040855296,18.7051640844286
+261.685342862325,128.645974466221,27.2489786874927
+263.99182328813,25.7562154677136,25.0195143818672
+777.819373643138,27.2076660607959,21.930938794355
+934.770926069929,106.391776770321,17.6781362737201
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__5.jpg
+920.795192461439,348.302511617845,26.9641875743821
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__6.jpg
+971.789543900589,317.288073830857,31.0287147544502
+250.880499439289,49.6840268929683,31.0285118409122
+1092.06012346888,573.058413603644,21.1236964731177
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__7.jpg
+1019.4320824254,318.782533465455,35.6186715317979
+241.526298065479,45.1985116347436,25.2835859616446
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 30\Bushaltestelle\Geschwindigkeitsbegrenzung_30-2025-06-05__8.jpg
+1101.80195030445,392.44283555135,41.8228183716011
+228.899722239426,92.3868597061977,27.3333848116698
+1238.59423942238,49.6512275124635,21.5590300646955
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__1.jpg
+720.158565140785,263.941890259662,17.7352478703755
+1050.1275304487,13.3966971225082,19.881699540944
+19.7998529986129,445.095852007182,20.8380212246431
+38.3714760094949,439.222194458472,21.486613385549
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__10.jpg
+1010.06758811797,339.5871971474,39.6509892632934
+1070.09517582941,26.9733687471458,16.4362742610443
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__11.jpg
+1054.5445485131,342.908514732453,42.0075425574835
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__12.jpg
+1139.24803948784,360.893886655776,48.716263268436
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__13.jpg
+1218.75506874554,371.61048878617,48.8523303217563
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__2.jpg
+727.99464927323,247.483546272003,18.1013165557223
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__3.jpg
+755.767002238949,239.59494546867,19.1036559700066
+828.400564691756,626.648396395557,19.9467680373531
+861.70641185241,683.745211952731,16.2441310612685
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__4.jpg
+762.835058629414,239.921665881308,21.0539193436732
+856.979823398016,680.744620357722,18.4415861222463
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__5.jpg
+790.51830565645,239.98389642669,23.0945328774084
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__6.jpg
+826.01020804966,243.457976901465,25.4263215285304
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__7.jpg
+861.66580132566,268.001009084379,27.3961313018517
+933.62878839651,456.555037099557,21.3603729683896
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__8.jpg
+899.999086189769,285.791134225218,29.9971101404941
+883.467161897895,581.111387543467,17.1495975793271
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Ackerstraße\Geschwindigkeitsbegrenzung_70-2025-06-06__9.jpg
+946.823930083307,313.981607331188,33.4247915694391
+1075.37595104326,19.0489238029257,17.8473953281839
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__1.jpg
+805.64783171524,297.071047364404,16.8956016466923
+724.016276984518,346.014903818902,21.5455303462283
+40.2556256105015,528.891961529761,26.6049918112369
+396.778173647167,352.709221419809,20.2304650350661
+334.606594167647,17.4108224616885,18.8642734266667
+25.1720573983288,527.980292674488,38.6687149713997
+898.734122923685,511.237684687933,32.7750848607828
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__2.jpg
+741.777967505656,269.083364025333,17.6034896277019
+661.252690755681,332.176282915799,20.1242512282242
+314.053379315253,341.090992698189,18.0701836555063
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__3.jpg
+803.259661301264,354.422038108957,21.1724656792417
+314.085083079782,60.8523024358302,24.2077680869297
+40.6602804630207,505.422066618752,24.7840928561348
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__4.jpg
+851.136767439027,361.313930364902,24.6443013289606
+833.516925459145,53.1350116630537,24.9812951686121
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__5.jpg
+883.288525376535,381.843932247323,29.7143811880751
+791.120545594527,34.8884495942135,22.6772713970037
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__6.jpg
+944.405646383974,379.421665899356,35.6318133696427
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__7.jpg
+1039.00628278095,382.935747668904,44.3567932082935
+1038.35598590545,709.49869436586,17.9117458178582
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsbegrenzungen\Geschwindigkeitsbegrenzung 70\Bushaltestelle\Geschwindigkeitsbegrenzung_70-2025-06-05__8.jpg
+1160.33942000411,361.816436500972,51.8509173633424
+281.600648452135,26.5265501380547,29.8318951509439
+976.72863293068,435.76403855051,21.1889321073262
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__1.jpg
+333.580742211215,143.733536707747,20.3023915032518
+261.112852511259,163.439679696534,18.1349331023454
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__10.jpg
+1073.42424786191,303.094977646889,31.5271444618443
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__11.jpg
+1109.42801238769,15.2239804750642,24.5800257264705
+1108.50386807378,321.337774468632,30.6352958261143
+84.9387708789719,439.983970451274,24.0090184356679
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__12.jpg
+1144.89019777235,342.530805158638,17.6252356051373
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__2.jpg
+253.018799368856,143.816250712646,17.8729926565459
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__3.jpg
+325.63246615006,118.845014832747,18.9871723517228
+801.017241679764,238.823556964419,22.3774021299542
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__4.jpg
+925.677905756294,670.714053490324,19.1488587687939
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__5.jpg
+339.587956253961,97.4310545520577,20.0359107801043
+860.622288389675,229.276765167887,21.3563563437287
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__6.jpg
+898.481770895071,231.09813713727,23.2813867225427
+352.00352048798,96.6694954681439,19.9358991973925
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__7.jpg
+936.108926341566,239.787129031876,23.6997852079059
+47.4971873565179,423.001756597623,26.0515018602994
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__8.jpg
+978.488070296429,261.837821565659,24.5563362629724
+35.3794120646918,431.618694372207,20.7637975211351
+20.6645943973348,444.543561889415,31.0551413061389
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Ackerstraße\Geschwindigkeitsempfehlung_30-2025-06-06__9.jpg
+1008.74011298588,272.69222474679,28.2198266780008
+30.1601635773159,449.27438889226,22.8855066537953
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__1.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__10.jpg
+1109.94992439495,395.094829957532,17.4274375055419
+1105.68299475971,423.932253153433,18.3897207173343
+1151.324664137,398.780418507434,17.40082639404
+236.813144360984,131.079208994024,23.7625945026875
+1145.44343596737,427.063545129555,18.2235807999556
+762.63426008365,18.8449155155438,21.1501021141902
+239.967006481497,18.5659683698372,21.4896142456612
+1247.62704718133,82.7407156479402,21.6388811724143
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__2.jpg
+252.738441299925,159.494856434645,27.7817238229799
+1257.57157802746,119.648134260168,19.5823923148984
+767.227461692373,63.8398129284197,21.1695398797761
+882.910406410769,116.037330537426,19.4062356585797
+263.557408059708,60.2627611976892,22.4787888962777
+108.623338216196,463.520099833476,23.4572610989694
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__3.jpg
+1263.36586021846,110.35634820496,19.2116005269332
+262.859556326999,149.506849223585,25.6012051875192
+776.297067154549,52.4143917087978,21.6959970211442
+80.0234235016053,471.337781978166,24.0573151188114
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__4.jpg
+808.948413078106,344.581695276006,21.8799260212859
+32.4422185950344,481.050884453498,22.648029931199
+259.642181678236,138.644128216572,25.5132751561274
+266.251920903905,35.0037909099276,23.5147619789716
+780.248044943241,36.7016853304318,22.1472222390519
+82.0025958437529,185.721026039641,20.1001184784666
+1265.47440987907,97.8478013079816,20.0588610434149
+85.4468221182621,138.276344710041,27.4810804892413
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__5.jpg
+839.253748978495,330.990568675469,25.8605264455328
+1263.04946973357,76.0269228978144,19.261158199624
+260.423914340695,122.47201483261,25.6863691535323
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__6.jpg
+228.641505170821,114.314662020711,27.1506978501072
+833.067287398841,331.450085993254,27.3934660436461
+1242.78743253233,77.7450117027072,24.8030839934355
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__7.jpg
+879.527194877612,309.502819900747,25.2976129684575
+916.692674417291,59.4189336700087,17.4999009287688
+236.654063637045,78.079467382515,26.5334818769382
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__8.jpg
+248.475990431923,35.4460064268608,26.796199170039
+937.024605833195,268.111037263617,27.5416884900352
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 30\Bushaltestelle\Geschwindigkeitsempfehlung_30-2025-06-05__9.jpg
+237.817344885046,98.2670268225163,23.7674536440762
+1026.64213343405,354.49951478132,23.1596205639282
+1249.46337457245,51.1939047037434,23.961490651655
+940.122358193795,654.696398398264,20.6172464116339
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__1.jpg
+720.164754563569,252.72503924206,19.8395294246084
+14.836912520729,438.264947693576,21.9137959300182
+1050.27698495661,19.370296279107,23.8962072211647
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__10.jpg
+989.304386959082,293.629930938132,34.2698852020078
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__11.jpg
+1032.23755029454,300.100988715015,36.2365835134786
+973.966213992817,637.212104835573,20.5116254695602
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__12.jpg
+1078.42956881995,317.659950049077,24.5536350505906
+1110.14779598013,319.304785253242,19.5305460055041
+1092.78531131421,705.862728023817,17.0196159923885
+1108.95945109647,343.110834464287,18.0781518595775
+1002.71919135043,706.093882404091,18.0008430021707
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__13.jpg
+1124.138249289,320.502095802798,19.4692152239623
+1161.96219926298,351.852989519324,16.8484897912034
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__14.jpg
+1184.70359354866,322.25092234686,17.9677632522743
+1224.33947131113,362.859841455501,16.9359503633479
+1227.71462069372,324.473584353826,17.7082084859527
+825.190386175121,682.853292375575,16.7584700312146
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__2.jpg
+747.135305495849,235.441833233638,20.3981443364755
+865.057993996157,675.127772063676,16.830325730415
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__3.jpg
+781.162400599541,225.205122498859,20.8928231620661
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__4.jpg
+806.507558102068,217.017901258426,22.8367160080587
+909.994772013776,682.172554678853,17.6970206901768
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__5.jpg
+836.719067901212,217.576116675248,24.446541912716
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__6.jpg
+879.775233262292,220.270958390772,26.2806876888434
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__7.jpg
+907.150618025863,230.848207544973,28.930604446798
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__8.jpg
+950.456637126818,249.097912753295,30.0013423347537
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Ackerstraße\Geschwindigkeitsempfehlung_90-2025-06-06__9.jpg
+973.027196839554,270.062975834605,30.7223363756572
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__1.jpg
+253.267186768254,155.65815074953,26.4939269515151
+263.944543407355,54.5393675416475,22.9338668374254
+772.053152505507,58.7449595185787,23.4709157921466
+1258.78010368896,112.722302934748,20.8007157874636
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__2.jpg
+930.209286507298,121.115155271554,18.956112092991
+81.3678453975053,441.78915320769,31.1386618757953
+256.395373159573,142.936302018434,28.0573303666144
+261.425733321398,41.0938294270066,23.6145553821597
+775.129507763728,44.1548587996145,23.8479445258919
+1260.15623125568,104.558364289138,20.7701209662188
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__3.jpg
+251.929245370098,115.419445533928,26.0573951323768
+33.5188381319447,431.224280458679,29.8605265939528
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__4.jpg
+245.218784111552,67.0744099818427,27.7605331603989
+883.40561963536,268.257055807565,25.3700239792039
+924.340445586335,39.6965398588169,19.9524747232312
+1260.05765765225,713.197199655519,18.2455560143141
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__5.jpg
+230.967939957598,72.9181249376823,26.9226064758711
+910.307150029382,41.5855001305215,18.2076458760008
+963.364952187994,495.289300140388,28.1131922699078
+946.501280125693,276.005242380029,30.378191370053
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__6.jpg
+225.258457763092,128.754855541654,25.2629963567763
+1105.35392942564,358.484952042995,20.9098953296696
+906.368436761161,97.4498597383145,18.6673303698088
+1139.96734051054,384.987591284954,16.3192642250196
+1240.18094768842,75.2459211387994,24.941327765222
+227.253282368786,19.931389443826,23.5364622509531
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\1_Runde_Schilder\Geschwindigkeitsempfehlungen\Geschwindigkeitsempfehlung 90\Bushaltestelle\Geschwindigkeitsempfehlung_90-2025-06-05__7.jpg
+1196.04031105522,367.868577860169,16.8984565775198
+1237.37047069566,404.910595140914,17.1019727330668
+901.581678253047,88.1352671572161,18.1491693912128
+219.442591057887,121.187650337505,25.3724614734602
+1232.78336000484,67.876525191241,21.3089125584469
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__1.jpg
+825.561037936958,647.272581930736,20.1221093582957
+767.04904175678,247.775472830853,16.2025078087863
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__2.jpg
+856.765441390765,247.288352283305,18.6431393299772
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__3.jpg
+875.5103056569,253.772417474086,20.5531772129568
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__4.jpg
+921.786999048461,299.959697098113,20.8704961073369
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__5.jpg
+992.524814485497,339.717364728033,19.8072744580724
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__6.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__7.jpg
+1028.69787140385,699.520077331648,18.303600616959
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Ackerstraße\Achtung_Gefahrenstelle-2025-06-06__8.jpg
+875.16996079745,700.335122301391,17.2195503513635
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__1.jpg
+1159.02458070256,457.795517534802,27.0795845171867
+1232.50750433511,86.6618431689908,21.4019529722726
+805.107306567036,554.906574275839,26.7800242387629
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__2.jpg
+1245.03028727984,477.844062901846,29.7969502970773
+1240.58869059903,75.1001180534318,21.7985264334251
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__3.jpg
+873.054631852738,335.070040827834,21.3627433535457
+930.827433261758,64.3989256632053,20.9880353977089
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__4.jpg
+1258.94609103088,45.024022236152,22.5551712662476
+917.314746746422,345.611939257526,24.1189164476438
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__5.jpg
+1253.34636977905,69.6115684556012,20.3879106915726
+976.661020672419,392.419317197478,22.1328845517591
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__6.jpg
+1253.36928712853,53.8363202681793,21.9905631178725
+1057.87579194783,407.589186219143,28.0238191444755
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Achtung Gefahrenstelle\Bushaltestelle\Achtung_Gefahrenstelle-2025-06-05__7.jpg
+1254.96265453885,49.8252506086113,20.5853624979375
+932.953563203908,65.6933983741871,17.8198129145671
+1031.64684078265,77.0780509716125,23.7186071830277
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__1.jpg
+170.733917465298,155.873196759928,21.8501824834378
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__10.jpg
+245.009699757461,149.973707729088,17.8558829177504
+1125.38196670433,22.8171255773715,21.2012304261947
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__11.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__12.jpg
+1125.88975474337,14.087089227806,22.423250970103
+236.257948289506,147.841286840554,19.0070428427542
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__13.jpg
+232.091368157759,147.381748122708,20.0466488868119
+246.558756461015,139.631457512802,22.2690408351397
+846.03210970075,685.016393682346,16.6959769816184
+1107.99753102051,7.44554773188406,21.6157750393432
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__2.jpg
+169.909619296239,141.369020619873,19.3227589441437
+229.076931262326,133.113405006748,22.4607743212235
+216.520094457575,139.776557387866,19.6953917451687
+812.04842099771,379.921436091626,15.818017305116
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__3.jpg
+226.048490073257,130.20501847472,18.2398308215686
+241.908981203306,120.689230550071,22.5626843613283
+836.872526572018,664.399823635979,25.1072837891153
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__4.jpg
+232.487902560835,119.893994936803,20.0993200671052
+185.564153310364,123.017531970162,18.1468987044258
+745.242003034911,393.44882531062,20.3725211505875
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__5.jpg
+897.870215606127,398.479736651028,18.3430332518744
+188.677997522145,117.926445019596,19.6263919903472
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__6.jpg
+898.744124934324,399.318923275005,18.019874506373
+233.265078169613,115.466026671005,19.9765025952055
+762.003287159748,405.124944386389,28.9068927217332
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__7.jpg
+243.415253232499,115.52722792065,19.2935046940816
+259.501452414035,108.934463020816,20.0493731942697
+196.327063308364,113.962807527697,21.1121080090874
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__8.jpg
+193.678387280456,127.173472704249,20.2491604225302
+241.119517844975,126.647584090922,19.4114859315892
+1040.14736954018,545.171170538415,20.424056265693
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Ackerstraße\Vorfahrt_achten-2025-06-06__9.jpg
+250.576174248369,138.286690620459,20.7287895192069
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__1.jpg
+1257.4423180208,114.24923281052,20.166556373512
+835.847655035279,546.660985267912,25.9490746742819
+1208.49263670599,686.175657670423,26.3526236252154
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__2.jpg
+969.54755703212,105.621140672121,19.2644956267154
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__3.jpg
+979.81954301047,86.7726413608151,18.041323420586
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__4.jpg
+972.319360378372,73.4313688467471,20.0635045266382
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__5.jpg
+912.976359760228,74.2097796873127,23.7516118231453
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__6.jpg
+904.71374096871,73.3718163228703,20.9086554526556
+1233.30668492323,58.772167285514,19.8696606689702
+1068.39307825296,639.9924936591,22.5076882753212
+1087.30722843031,655.813615679086,22.4555994818463
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\2_Dreieckige_Schilder\Vorfahrt Achten\Bushaltestelle\Vorfahrt_achten-2025-06-05__7.jpg
+914.319479052503,59.4348762898807,20.6681126081771
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__1.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__10.jpg
+1213.75564967497,352.937445243608,28.5520751335996
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__11.jpg
+1104.51222113697,18.1529316302509,19.1672700574737
+817.196090399376,682.445010409991,15.7271921939105
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__2.jpg
+768.58403251702,714.877362081595,20.7390658761533
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__3.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__4.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__5.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__6.jpg
+947.505825870969,276.620133516298,23.6357563509674
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__7.jpg
+984.424546686152,311.988527965541,29.6292698657237
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__8.jpg
+1060.91161609933,328.697381396279,23.6681843252662
+960.681797634741,665.885820936266,21.408069702099
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Ackerstraße\Verkehrsberuhigter_Bereich-2025-06-06__9.jpg
+993.34538013436,704.784899729709,17.0578271133553
+1105.974571143,341.825549338303,26.5600566773409
+1083.6756753119,705.939568545231,18.6429708641725
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__1.jpg
+299.747064389786,188.417480605837,22.3689255624946
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__2.jpg
+947.489763951763,136.36433515824,17.4290864280437
+270.868412092717,158.042395016875,27.9417302566454
+786.456573477888,61.0095276165107,20.9515432763803
+281.996125636834,58.4100447812998,22.8054603422576
+1274.50553668065,117.387160247534,20.6706127792736
+812.647188338732,31.1843994894918,21.2779092709684
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__3.jpg
+283.979133420991,159.805811812449,24.891747003437
+296.757057544078,53.9548596756126,21.2619096384649
+961.782626633673,138.835916659179,16.7295547251944
+804.310138418954,61.0128095140808,24.2379231074764
+260.565159676986,21.9736022816073,23.3975714722591
+122.980877943811,446.727059497424,32.1935385929131
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__4.jpg
+976.732622716017,124.157461835535,18.923235203274
+298.663865201891,143.196203082233,26.5372468360958
+813.878426079964,45.7004069803948,18.5768620240035
+306.826524986625,41.7796003808396,23.5697309539784
+114.132453095396,440.766281468672,28.4265335548036
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__5.jpg
+978.334290070539,114.765681135113,18.3069573518045
+298.947183567693,133.264840182746,28.9282265840378
+307.242856632756,31.2349463468017,23.6097458262328
+51.711596420123,485.438183489822,29.6539110236245
+821.198723268811,35.1276434325423,22.8555767481505
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__6.jpg
+268.540018275345,125.478462833845,29.4421224046579
+39.7637865746848,486.287363975744,33.0261662013065
+790.150593789409,26.1439377069599,20.7656038535244
+1275.48662208049,91.6263291685223,19.553668439021
+280.620725291478,24.1246766698516,20.9877073798045
+990.520236349805,101.313551665164,21.8664251573841
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__7.jpg
+941.480513391266,67.0473947296219,18.9098906683045
+262.352722101446,88.2321296931262,28.3782454756447
+1270.29000447514,56.0745622524484,19.8886456760202
+279.732224871688,109.697769744232,20.3124564722204
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__8.jpg
+954.26318757479,10.3574825822778,17.9869417684882
+274.680522217335,29.4015481558315,28.6838987312294
+988.045769805791,433.758872743106,22.8938803227283
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\3 Rechteckige Schilder\Verkehrsberuhigter Bereich\Bushaltestelle\Verkehrsberuhigter_Bereich-2025-06-05__9.jpg
+261.62038099153,93.831249013685,25.834143301462
+1270.39681262528,49.0874704528281,21.9809970205646
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__1.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__10.jpg
+941.973043689729,105.885603877045,24.8454907939526
+656.441927679903,143.255075775244,20.2200897214448
+1129.69592656855,38.8125301042426,26.5241165377389
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__2.jpg
+1063.46136711302,3.37381820721466,17.1952847887499
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__3.jpg
+215.292197437388,131.928365485447,18.6333410986916
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__4.jpg
+638.641026310044,98.8343284192763,18.9082941481208
+31.1601186012627,401.63488167843,23.5170842671901
+763.963652535628,99.7265888169685,16.0777317529365
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__5.jpg
+786.796062945935,103.784701476953,16.0861816034236
+703.492128526312,454.099152080528,19.6215069014177
+957.869655031178,420.687390263192,20.9379155168116
+55.4419693241973,399.952938781537,25.9008548535474
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__6.jpg
+799.920619143573,107.536000476809,16.5803667745845
+642.532367076346,115.638101465119,21.2952066482971
+38.1575982270251,409.161203962281,21.4462483060544
+1126.46761467655,13.8651565763719,16.9384078804059
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__7.jpg
+837.397160490447,122.399931492182,18.3658118190703
+1115.75151437035,32.6522447053144,22.8924613758497
+78.3856329082472,414.511046386569,20.9327971643722
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__8.jpg
+862.731928628598,124.732055454615,20.0751423683392
+1110.732733901,31.3960161607596,19.601218754915
+257.217417179305,149.616399750445,18.5866540321852
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Gelb\Ackerstraße\Ampel_Gelb-2025-06-06__9.jpg
+882.895695791237,122.160191660799,21.5459527289472
+649.361332180239,147.197423868889,20.7725995401605
+1112.86457918461,24.0826098511518,21.2236806982393
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__1.jpg
+18.2174138358819,444.606570377856,22.1733547371018
+796.130230398556,571.589213872003,15.5816992578751
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__2.jpg
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__3.jpg
+891.95969626281,665.958126686654,18.5366633176129
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__4.jpg
+753.661714056138,140.012126437108,15.3368187528996
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__5.jpg
+775.89413153193,133.354821485363,15.6126562510889
+1025.8701025978,494.172388847048,20.2741195373004
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__6.jpg
+792.939551242898,151.164561107731,16.8324005433289
+1049.41805586139,537.799141160749,22.8961006514077
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__7.jpg
+854.509587217223,182.937780478058,22.0362050594696
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Grüne\Ackerstraße\Ampel_Grün-2025-06-06__8.jpg
+891.67536288104,178.227403858292,24.7552569874846
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Ackerstraße\Ampel_Rot-2025-06-06__1.jpg
+273.976421811403,113.640391613371,18.3215882965133
+227.084470078823,115.813498611447,17.5494894959924
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Ackerstraße\Ampel_Rot-2025-06-06__2.jpg
+279.608975332149,104.993474142028,19.1448407351987
+16.9536557014707,402.789445824778,21.7598320835011
+415.921049908071,430.408232578402,17.5089366550508
+745.492481237606,429.804289609761,18.4224426705964
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Ackerstraße\Ampel_Rot-2025-06-06__3.jpg
+939.781578638748,482.079683223238,21.9325115888292
+274.681403423173,128.94584907207,19.2046163979168
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Ackerstraße\Ampel_Rot-2025-06-06__4.jpg
+264.724682102886,153.533151816078,17.3831209301688
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Ackerstraße\Ampel_Rot-2025-06-06__5.jpg
+265.112943530857,150.671604319494,18.8406873278848
+1094.57196322941,9.49422620094392,19.495841899482
+1133.79032278055,17.8295609986749,18.1085823646446
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Ackerstraße\Ampel_Rot-2025-06-06__6.jpg
+250.005899930505,148.753989515885,17.4614415370493
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__1.jpg
+1129.61138472142,312.9273293362,18.6195122615071
+1193.867942574,308.046359651495,17.5910760695234
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__10.jpg
+938.887277229169,293.018898133992,26.3207430417842
+1248.97156484304,63.6550752825552,21.5006801722441
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__11.jpg
+1243.80890418759,58.3487101112525,22.571324080125
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__12.jpg
+1239.58544678237,44.6648410320835,24.0330112729359
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__2.jpg
+1148.28612268233,343.281822073072,20.0088375075722
+1215.42127003307,337.679220402314,18.9087845819512
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__3.jpg
+1169.11036787472,371.011698415548,20.7785444301601
+1236.4089281131,363.97013512359,18.4497298172836
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__4.jpg
+1164.68656215502,444.512315262826,21.6660942730759
+1232.78858783962,433.683657491808,20.5326977179546
+1250.02074349088,119.182348609594,23.1112673711021
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__5.jpg
+1218.35810636721,446.354171521153,22.9963250795989
+1251.77880894547,110.11546596624,19.8543019085909
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__6.jpg
+1258.32369419652,83.4245213092368,20.2875831608074
+1184.91668749765,669.20232570249,25.6292611112292
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__7.jpg
+833.19948371211,283.945162786233,18.7422550258755
+1264.55874749506,75.0498734751797,22.6021425276577
+407.54645073681,482.189095262882,17.4044626122936
+356.172450141848,478.775636478761,16.7486174535831
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__8.jpg
+859.554953557979,265.798943935503,19.6677011339359
+C:\Users\nicoh\OneDrive\Desktop\Matlabcode_Teamprojekt\Bilder\4 Ampel\Ampel Rote\Bushaltestelle\Ampel_Rot-2025-06-05__9.jpg
+894.115331288428,267.635300157926,21.7457847160972
+1256.34127292065,48.3695761753152,22.1358940040655
