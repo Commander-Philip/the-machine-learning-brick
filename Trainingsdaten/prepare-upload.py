@@ -5,7 +5,7 @@ from glob import glob
 import re
 
 def listSignCategorieFolder(path):
-    folders = glob(path+"/[1-5]*")
+    folders = glob(path+"/[1-6]*")
     # print(folders)
     return folders
 
@@ -71,7 +71,8 @@ def main():
     countOfRectangleSigns = int(subprocess.run(["find ./3_Rechteckige_Schilder -type f | wc -l"], capture_output=True, shell=True, text=True).stdout.strip())
     countOfTrafficLights = int(subprocess.run(["find ./4_Ampel -type f | wc -l"], capture_output=True, shell=True, text=True).stdout.strip())
     countOfPolgyonSigns = int(subprocess.run(["find ./5_Polygon_Schilder -type f | wc -l"], capture_output=True, shell=True, text=True).stdout.strip())
-    sumOfPicturesNonZipped = countOfRoundSigns + countOfTriangularSigns + countOfRectangleSigns + countOfTrafficLights + countOfPolgyonSigns
-    print(f"Es fehlen {sumOfPicturesNonZipped-sumOfPictures} Bilder")
+    countOfChallengeSigns = int(subprocess.run(["find ./6_Challenge -type f | wc -l"], capture_output=True, shell=True, text=True).stdout.strip())
+    sumOfPicturesNonZipped = countOfRoundSigns + countOfTriangularSigns + countOfRectangleSigns + countOfTrafficLights + countOfPolgyonSigns + countOfChallengeSigns
+    print(f"Es fehlen {sumOfPicturesNonZipped - sumOfPictures} Bilder")
 
 main()

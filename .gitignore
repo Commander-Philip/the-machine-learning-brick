@@ -187,3 +187,6 @@ docs/**/generated
 *.drawio.bkp
 
 *.FCBak
+
+Trainingsdaten/*
+!Trainingsdaten/prepare-upload.py
