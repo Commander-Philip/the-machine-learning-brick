@@ -33,7 +33,6 @@ def crop_circle_images(image_to_crop: image.Image, circles): # circles: List[cir
     detected_signs = []
 
     for circle in circles:
-        print(circle)
         if drawDebugVisuals:
             picture_rgb.draw_circle(circle.x(), circle.y(), circle.r(), color=(0, 0, 255), thickness=4, fill=False)
             picture_rgb.draw_cross(circle.x(),circle.y(),color=(255,0,0), thickness=4)
@@ -57,10 +56,7 @@ while True:
     cycle_begin_ms = time.ticks_ms()
 
     picture_rgb = sensor.snapshot()
-    picture_grayscale = picture_rgb.copy()
-    picture_grayscale.to_grayscale()
-    picture_grayscale.gaussian(sigma)
-    circles = picture_grayscale.find_circles(
+    circles = picture_rgb.find_circles(
         roi=(0,240,1280,360),
         threshold=3400, x_margin=25,
         y_margin=30,
