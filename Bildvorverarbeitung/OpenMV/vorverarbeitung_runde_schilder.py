@@ -38,11 +38,11 @@ def crop_circle_images(image_to_crop: image.Image, circles): # circles: List[cir
             picture_rgb.draw_cross(circle.x(),circle.y(),color=(255,0,0), thickness=4)
         try:
             detected_signs.append(
-                picture_rgb.crop(
-                    roi=(int(circle.x()-max_sign_radius*1.15),
-                    int(circle.y()-max_sign_radius*1.15),
-                    int(max_sign_radius*2.3),
-                    int(max_sign_radius*2.3)
+                picture_rgb.crop(# 200 200 3
+                    roi=(int(circle.x()-100),
+                    int(circle.y()-100),
+                    200,
+                    200
                 )
             )
         )
