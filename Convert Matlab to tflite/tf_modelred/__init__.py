@@ -1,8 +1,8 @@
 #    This file was created by
 #    MATLAB Deep Learning Toolbox Converter for TensorFlow Models.
-#    25-Jul-2025 13:07:23
+#    24-Jul-2025 17:18:21
 
-import tf_model.model
+import tf_modelred.model
 import os
 
 def load_model(load_weights=True, debug=False):
