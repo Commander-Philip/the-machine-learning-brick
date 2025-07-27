@@ -1,6 +1,6 @@
 #    This file was created by
 #    MATLAB Deep Learning Toolbox Converter for TensorFlow Models.
-#    25-Jul-2025 17:42:01
+#    27-Jul-2025 02:25:50
 
 import tensorflow as tf
 from tensorflow import keras
@@ -14,8 +14,9 @@ def create_model():
     conv_2 = layers.Conv2D(16, (3,3), padding="same", name="conv_2_")(maxpool_1)
     relu_2 = layers.ReLU()(conv_2)
     maxpool_2 = layers.MaxPool2D(pool_size=(2,2), strides=(2,2))(relu_2)
-    flatten = layers.Conv2D(2, (12,12), name="flatten_")(maxpool_2)
-    softmax = layers.Softmax()(flatten)
+    gap = layers.GlobalAveragePooling2D(keepdims=True)(maxpool_2)
+    conv_3 = layers.Conv2D(2, (1,1), name="conv_3_")(gap)
+    softmax = layers.Softmax()(conv_3)
 
     model = keras.Model(inputs=[input], outputs=[softmax])
     return model
