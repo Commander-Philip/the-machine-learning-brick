@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!matlab/convert-to-micropython/bildvorverarbeitung-versuch-native-machine-code/codegen/lib
 lib64/
 parts/
 sdist/
