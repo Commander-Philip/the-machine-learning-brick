@@ -49,7 +49,6 @@ converter = tf.lite.TFLiteConverter.from_saved_model(model_dir)
 converter.optimizations = [tf.lite.Optimize.DEFAULT]
 converter.representative_dataset= representative_dataset
 converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS_INT8]
-#converter.experimental_enable_resource_variables = True
 converter._experimental_lower_tensor_list_ops = False
 converter.inference_type = tf.int8
 converter.inference_input_type = tf.int8
