@@ -10,9 +10,6 @@ model = tf_model.load_model()
 model.export(model_dir)
 
 image_dir="Quantisierungsbilder"
-# img = Image.open("Quantisierungsbilder/Geschwindigkeitsbegrenzung_30_3.jpg").convert("RGB")
-# img = img.resize((48, 48), box=(img.width/2-24, img.height/2-24, 48, 48))
-# img.save("test.jpg")
 
 imgSize=48
 # Lade 100 Bilder für die Quantisierung

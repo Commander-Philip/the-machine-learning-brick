@@ -2,23 +2,25 @@
 
 Mit pyenv python 3.11.11 installieren:
 
-```
+```bash
 pyenv install 3.11.11
 pyenv local 3.11.11
 ```
 
 Dann eine Virtuelle Python umgebung erstellen (geht aber auch ohne):
 
-```
+```bash
 python -m venv venv
 source ./venv/bin/activate
 ```
 
 Anschließend die Abhängigkeiten installieren
 
-```
+```bash
 pip install --upgrade pip
 pip install tensorflow numpy pillow
+# oder alternativ
+pip install -r python-requirements.txt
 ```
 
 Mit STRG + Shift + P `Python: Interpreter auswählen` den Interpreter von dem Python im venv Ordner auswählen.
