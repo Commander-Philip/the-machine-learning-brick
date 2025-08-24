@@ -61,12 +61,10 @@ while(True):
         time.sleep_ms(2000)
         try:
             output = model.predict([image_array])
+            scores = output[0][0][0][0]
+            print("Klassifikation:", scores)
             pass
         except Exception as e:
             print(e)
 
-        # Ergebnisse anzeigen
-        if output:
-            scores = output[0][0][0][0]
 
-            print("Klassifikation:", scores)
